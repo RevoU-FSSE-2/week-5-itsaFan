@@ -260,6 +260,12 @@ h6 {
 .counter-container span {
   font-size: 2rem;
   font-weight: 700;
+  color: #1b2d45;
+ 
+}
+.counter-container p {
+  color: #001534;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -426,7 +432,7 @@ h6 {
 
 .tab {
   overflow: hidden;
-  width: 600px;
+  width: 590px;
   height: 260px;
   cursor: pointer;
   border-radius: 25px;
@@ -745,6 +751,8 @@ span {
 
 #btn-contact {
   margin-bottom: 2rem;
+  background-color: #1b2d45;
+  color: #fffffe;
 }
 
 @media (max-width: 768px) {
