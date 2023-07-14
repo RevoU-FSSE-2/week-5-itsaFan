@@ -402,7 +402,10 @@ h6 {
 
 /* Course List */
 #courses {
-  margin: 2rem 0 8rem 0;
+  margin: 1rem 0 4rem 0;
+}
+.center h4 {
+  font-size: 2rem;
 }
 
 .course-container {
@@ -435,7 +438,7 @@ h6 {
 }
 .tab p {
   color: #fffffe;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: start;
   margin-top: 200px;
@@ -545,7 +548,6 @@ span {
   }
   .res-grid {
     grid-column: initial;
-
   }
 
   .tab-content img {
@@ -628,5 +630,94 @@ span {
     margin: 1rem;
     opacity: 0.9;
     font-size: 0.9rem;
+  }
+}
+
+/* Footer CSS */
+#footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #001534;
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer-container {
+  width: 75%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  display: flex;
+  margin: 3rem 0;
+}
+.footer-brand h5 {
+  font-size: 1.5rem;
+  color: #fde24f;
+  margin-left: 1rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.credit {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.credit span {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px 0 0 -10px;
+  color: #fffffe;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #b7c9e4;
+  padding: 5px 0;
+}
+.credit a:hover {
+  color: #fde24f;
+}
+
+#fa-footer {
+  margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 999px) {
+  .footer-brand {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-brand {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+  .footer-brand h5 {
+    display: none;
+  }
+  .footer-brand img {
+    margin: 2rem 0;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+
+    justify-content: space-between;
   }
 }
