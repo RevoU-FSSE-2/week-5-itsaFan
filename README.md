@@ -20,7 +20,7 @@ The purpose of this assignment is to create a company profile using HTML and CSS
 
 CodeCraft Academy is a website dedicated to providing comprehensive and industry-driven software engineering courses. Our purpose is to empower individuals with the skills and knowledge needed to excel in the fast-paced world of technology.
 
-#### Target Audiance
+#### Target Audiance:
 
 Our courses are tailored to cater to both beginners and experienced professionals. Whether you are a complete novice with no coding experience or a seasoned developer looking to enhance your skills, our courses provide valuable resources and mentorship to help you achieve your goals. Our target audience includes:
 
@@ -29,7 +29,7 @@ Our courses are tailored to cater to both beginners and experienced professional
 - Professionals who want to transition into the software engineering field
 - Developers who wish to expand their knowledge and stay up-to-date with the latest technologies
 
-#### Key Features
+#### Key Features:
 
 - Industry-driven curriculum: Our courses are designed in collaboration with industry professionals to ensure they cover the most relevant and in-demand skills.
 - Experienced instructors: Our knowledgeable instructors bring real-world experience and provide valuable guidance throughout the learning journey.
@@ -53,7 +53,21 @@ Our courses are tailored to cater to both beginners and experienced professional
 
 Click here: [CodeCraft Academy Website](https://steff-coffee.site/)
 
-### Website Preview
+#### Website Structure:
+
+- Header
+  - Logo
+  - Navbar
+- Main
+  - Hero Banner
+  - Counter Statistics
+  - Partners
+  - Offers
+  - Courses
+  - CTA
+- Footer
+
+## Website Preview
 
 ### Responsive View Screenshot
 
@@ -70,7 +84,7 @@ Click here: [CodeCraft Academy Website](https://steff-coffee.site/)
   </tr>
   <tr>
     <td align="center" style="vertical-align: top;">
-      <img src="./assets/img/ss-mobile.png" width="400" alt="Desktop View">
+      <img src="./assets/img/ss-mobilev2.png" width="400" alt="Desktop View">
     </td>
   </tr>
 </table>
